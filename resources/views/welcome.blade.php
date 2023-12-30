@@ -116,11 +116,11 @@
                         <!-- Nav Menu End -->
 
                         <!-- User Btn -->
-                        <a href="#" class="user-btn"><i class="ti-user"></i></a>
+                        <a href="{{ route('User.Dashboard') }}" class="user-btn"><i class="ti-user"></i></a>
                         <!-- User Btn -->
 
                         <!-- Join Btn -->
-                        <a href="{{ route('login') }}" class="join-btn">Join for Free</a>
+                        <a href="{{ route('login') }}" class="join-btn">Login</a>
                         <!-- Join Btn -->
                     </nav>
                 </div>
